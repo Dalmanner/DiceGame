@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
                 playRound()
             } else {
                 showGameOver(userScore)
-                resetGame() // Reset again after game over and play again
+                resetGame() // Reset again after play again
             }
         }
     }
